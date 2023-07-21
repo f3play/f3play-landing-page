@@ -9407,7 +9407,7 @@ button,
         margin-bottom: 0px; }
   .intro-slider .arrows {
     position: absolute;
-    bottom: 110px;
+    bottom: 5%;
     right: 20px;
     z-index: 999;
     display: flex; }

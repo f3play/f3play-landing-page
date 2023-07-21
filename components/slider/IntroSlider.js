@@ -40,7 +40,7 @@ const IntroSlider = () => {
                 }}
                 style={{
                     borderRadius: "10px",
-                    height: "70vh",
+                    height: "100%",
                     width: "70%",
                 }}
             >
