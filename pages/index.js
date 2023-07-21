@@ -14,12 +14,7 @@ const Index = () => {
 						<div className="row align-items-center justify-content-between">
 							<div className="col-xl-5">
 								<div className="intro-content">
-									<p style={{
-										fontWeight: 500,
-										fontSize: "40px",
-										color: "#fff",
-										marginTop: "-75px",
-									}}>100% ON-CHAIN GAMEFI</p>
+									<h1 className="intro-content-text">100% ON-CHAIN GAMEFI</h1>
 									<p style={{ fontSize: 18, fontWeight: 400 }}>F3Play revolutionizes the way Web3 Lunatics engages with GameFi. Embracing a player-centric philosophy, our game offers a delightful and hilarious gaming experience.</p>
 
 									<div className="intro-btn">
@@ -106,30 +101,15 @@ const Index = () => {
 							<div className="col-auto">
 								<div className="investor-brand">
 									<img
-										src="/images/brand/1.png"
-										class="img-fluid"
+										src="/images/brand/opBNB.png"
 										alt=""
+										style={{
+											width: "250px",
+											height: "75px",
+										}}
 									/>
 								</div>
 							</div>
-							{/* <div className="col-auto">
-								<div className="investor-brand">
-									<img
-										src="/images/brand/2.png"
-										class="img-fluid"
-										alt=""
-									/>
-								</div>
-							</div>
-							<div className="col-auto">
-								<div className="investor-brand">
-									<img
-										src="/images/brand/3.png"
-										class="img-fluid"
-										alt=""
-									/>
-								</div>
-							</div> */}
 						</div>
 					</div>
 				</div>

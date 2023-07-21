@@ -9339,10 +9339,19 @@ button,
         min-width: 120px; } }
 
 .intro1 .intro-content h1, .intro1 .intro-content .h1 {
-  font-size: 4rem;
-  font-weight: 700;
-  line-height: 1.3;
+  font-weight: 600;
+	font-size: 26px;
+	color: #fff;
+	margin-top: -25px;
   margin-bottom: 30px; }
+  @media only screen and (min-width: 767px) {
+    .intro1 .intro-content h1, .intro1 .intro-content .h1 {
+      font-size: 34px;
+      margin-top: -50px; } }
+      @media only screen and (min-width: 992px) {
+        .intro1 .intro-content h1, .intro1 .intro-content .h1 {
+          font-size: 40px;
+          margin-top: -75px; } }
 
 .intro1 .intro-content p {
   font-size: 1.125rem; }
@@ -9492,8 +9501,7 @@ button,
 .investor-brand {
   text-align: center; }
   .investor-brand img {
-    margin: 0 25px 50px;
-    max-width: 125px; }
+    margin: 0 25px 50px;}
 
 .profile-page {
   margin-bottom: 150px; }
@@ -9952,5 +9960,5 @@ button,
     .tokenomic-chart {
       width: 80vh;
       height: auto; } }
-   
+
 /*# sourceMappingURL=style.css.map */
