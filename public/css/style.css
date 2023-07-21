@@ -8159,7 +8159,7 @@ strong {
   box-shadow: none !important; }
 
 .section-title {
-  margin-bottom: 75px; }
+  margin-bottom: 50px; }
   .section-title h2, .section-title .h2 {
     font-weight: 700;
     font-size: 40px; }
@@ -9391,8 +9391,7 @@ button,
   .intro-slider .slider-item {
     position: relative; }
     .intro-slider .slider-item img {
-      border-radius: 8px;
-      width: 100%; }
+      border-radius: 10px; }
     .intro-slider .slider-item .slider-item-avatar {
       position: relative;
       padding: 20px;
@@ -9408,7 +9407,7 @@ button,
         margin-bottom: 0px; }
   .intro-slider .arrows {
     position: absolute;
-    bottom: 50px;
+    bottom: 110px;
     right: 20px;
     z-index: 999;
     display: flex; }

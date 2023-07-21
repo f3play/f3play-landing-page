@@ -9,30 +9,20 @@ const IntroSlider = () => {
     const data = [
         {
             img: "1.jpg",
-            avatar: "1.png",
             title: "The Sandbox",
             author: "Sound Box"
         },
         {
             img: "2.jpg",
-            avatar: "2.png",
             title: "The Sandbox",
             author: "Sound Box"
         },
         {
             img: "3.jpg",
-            avatar: "3.png",
-            title: "The Sandbox",
-            author: "Sound Box"
-        },
-        {
-            img: "4.jpg",
-            avatar: "4.png",
             title: "The Sandbox",
             author: "Sound Box"
         },
     ];
-
 
     return (
         <>
@@ -48,9 +38,9 @@ const IntroSlider = () => {
                     prevEl: ".intro_prev",
                     nextEl: ".intro_next",
                 }}
-                className="custom-class"
                 style={{
-                    height: "50vh",
+                    borderRadius: "10px",
+                    height: "70vh",
                     width: "70%",
                 }}
             >

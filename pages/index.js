@@ -18,6 +18,7 @@ const Index = () => {
 										fontWeight: 500,
 										fontSize: "40px",
 										color: "#fff",
+										marginTop: "-75px",
 									}}>100% ON-CHAIN GAMEFI</p>
 									<p style={{ fontSize: 18, fontWeight: 400 }}>F3Play revolutionizes the way Web3 Lunatics engages with GameFi. Embracing a player-centric philosophy, our game offers a delightful and hilarious gaming experience.</p>
 
@@ -65,9 +66,13 @@ const Index = () => {
 								</div>
 							</div>
 						</div>
-						<img src="/images/token/chart.png"
+						<img src="/images/token/pie_chart.png"
 							style={{
-								marginLeft: "25%",
+								display: "block",
+								marginLeft: "auto",
+								marginRight: "auto",
+								width: "784px",
+								height: "472px",
 							}}></img>
 					</div>
 				</div>
