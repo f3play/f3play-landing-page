@@ -19,31 +19,32 @@ function Header() {
                                         </Link>
                                     </div>
 
-                                    <ul className="navbar-nav" >
-                                        <li className="nav-item" >
-                                            <Link href="#tokenomic"
-                                                style={{
-                                                    fontWeight: 500,
-                                                    fontSize: "18px",
-                                                }}>Tokenomics</Link>
-                                        </li>
-                                        <li className="nav-item" >
-                                            <Link href="#roadmap"
-                                                style={{
-                                                    fontWeight: 500,
-                                                    fontSize: "18px",
-                                                }}>Roadmap</Link>
-                                        </li>
-                                        <li className="nav-item" >
-                                            <Link href="#partner"
-                                                style={{
-                                                    fontWeight: 500,
-                                                    fontSize: "18px",
-                                                }}>Partners</Link>
+                                    <div className={"collapse navbar-collapse"}>
+                                        <ul className="navbar-nav" >
+                                            <li className="nav-item" >
+                                                <Link href="#tokenomic"
+                                                    style={{
+                                                        fontWeight: 500,
+                                                        fontSize: "18px",
+                                                    }}>Tokenomics</Link>
+                                            </li>
+                                            <li className="nav-item" >
+                                                <Link href="#roadmap"
+                                                    style={{
+                                                        fontWeight: 500,
+                                                        fontSize: "18px",
+                                                    }}>Roadmap</Link>
+                                            </li>
+                                            <li className="nav-item" >
+                                                <Link href="#partner"
+                                                    style={{
+                                                        fontWeight: 500,
+                                                        fontSize: "18px",
+                                                    }}>Partners</Link>
 
-                                        </li>
-
-                                    </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
 
                                     <div className="play-btn d-flex align-items-center">
                                         <Link href="https://beta.f3play.io/" className="btn btn-primary"

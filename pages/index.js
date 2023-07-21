@@ -66,14 +66,7 @@ const Index = () => {
 								</div>
 							</div>
 						</div>
-						<img src="/images/token/pie_chart.png"
-							style={{
-								display: "block",
-								marginLeft: "auto",
-								marginRight: "auto",
-								width: "784px",
-								height: "472px",
-							}}></img>
+					<img src="/images/token/pie_chart.png" className="tokenomic-chart"></img>
 					</div>
 				</div>
 

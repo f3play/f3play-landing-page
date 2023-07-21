@@ -529,7 +529,7 @@ progress {
 .container-lg,
 .container-xl,
 .container-xxl {
-  width: 100%;
+  width: 95%;
   padding-right: var(--bs-gutter-x, 15px);
   padding-left: var(--bs-gutter-x, 15px);
   margin-right: auto;
@@ -537,7 +537,7 @@ progress {
 
 @media (min-width: 576px) {
   .container, .container-sm {
-    max-width: 540px; } }
+    max-width: 90%; } }
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
@@ -8567,7 +8567,7 @@ strong {
   @media only screen and (max-width: 991px) {
     .play-btn {
       position: absolute;
-      right: 80px;
+      right: 0px;
       top: 0; } }
 
 @media only screen and (max-width: 991px) {
@@ -9934,4 +9934,23 @@ button,
     .stacking-content .btn {
       margin-bottom: 50px; } }
 
+.tokenomic-chart {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vh;
+  height: auto; }
+  @media only screen and (min-width: 576px) {
+    .tokenomic-chart {
+      width: 60vh;
+      height: auto; } }
+  @media only screen and (min-width: 768px) {
+    .tokenomic-chart {
+      width: 70vh;
+      height: auto; } }
+  @media only screen and (min-width: 992px) {
+    .tokenomic-chart {
+      width: 80vh;
+      height: auto; } }
+   
 /*# sourceMappingURL=style.css.map */

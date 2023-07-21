@@ -97,7 +97,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="copyright">
                             <p>
-                                © Copyright 2022 <a href="#" style={{ color: "#2a52be" }}>F3Play</a>{" "}
+                                © Copyright 2023 <a href="#" style={{ color: "#2a52be" }}>F3Play</a>{" "}
                                 All Rights Reserved
                             </p>
                         </div>
