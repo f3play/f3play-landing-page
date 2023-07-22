@@ -11,9 +11,8 @@ function Header() {
                                 <nav className="navbar navbar-expand-lg navbar-dark">
                                     <div className="brand-logo">
                                         <Link href="/">
-                                            <img src="/images/icon.png" alt="" className="logo-primary"
+                                            <img src="/images/logo2.png" alt="" className="logo-primary"
                                                 style={{
-                                                    width: "40px",
                                                     height: "40px",
                                                 }} />
                                         </Link>

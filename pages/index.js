@@ -11,7 +11,7 @@ const Index = () => {
 			<LayoutFront >
 				<div className="intro1 section-padding">
 					<div className="container">
-						<div className="row align-items-center justify-content-between">
+						<div className="row align-items-center justify-content-between" >
 							<div className="col-xl-5">
 								<div className="intro-content">
 									<h1 className="intro-content-text">100% ON-CHAIN GAMEFI</h1>

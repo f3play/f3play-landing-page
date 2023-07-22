@@ -12,7 +12,7 @@ const Footer = () => {
                             <div className="bottom-logo">
                                 <img
                                     className="pb-3"
-                                    src="/images/logo.png"
+                                    src="/images/logo2.png"
                                     alt=""
                                     style={{ height: 60 }}
                                 />

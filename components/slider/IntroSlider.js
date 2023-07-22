@@ -9,18 +9,27 @@ const IntroSlider = () => {
     const data = [
         {
             img: "1.jpg",
-            title: "The Sandbox",
-            author: "Sound Box"
+            title: "Meme 1",
         },
         {
             img: "2.jpg",
-            title: "The Sandbox",
-            author: "Sound Box"
+            title: "Meme 2",
         },
         {
             img: "3.jpg",
-            title: "The Sandbox",
-            author: "Sound Box"
+            title: "Meme 3",
+        },
+        {
+            img: "4.jpg",
+            title: "Meme 4",
+        },
+        {
+            img: "5.jpg",
+            title: "Meme 5",
+        },
+        {
+            img: "6.jpg",
+            title: "Meme 6",
         },
     ];
 
@@ -37,11 +46,6 @@ const IntroSlider = () => {
                 navigation={{
                     prevEl: ".intro_prev",
                     nextEl: ".intro_next",
-                }}
-                style={{
-                    borderRadius: "10px",
-                    height: "100%",
-                    width: "70%",
                 }}
             >
                 {data.map((item, i) => (

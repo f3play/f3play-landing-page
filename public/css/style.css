@@ -8067,7 +8067,7 @@ strong {
     -webkit-transform: translate3d(-60px, 0, 0); } }
 
 .section-padding {
-  padding: 100px 0; }
+  padding: 105px 0; }
   @media only screen and (max-width: 1199px) {
     .section-padding {
       padding: 80px 0; } }
@@ -9340,18 +9340,16 @@ button,
 
 .intro1 .intro-content h1, .intro1 .intro-content .h1 {
   font-weight: 600;
-	font-size: 26px;
+	font-size: 24px;
 	color: #fff;
-	margin-top: -25px;
+  margin-top: -25px; 
   margin-bottom: 30px; }
   @media only screen and (min-width: 767px) {
     .intro1 .intro-content h1, .intro1 .intro-content .h1 {
-      font-size: 34px;
-      margin-top: -50px; } }
+      font-size: 32px; } }
       @media only screen and (min-width: 992px) {
         .intro1 .intro-content h1, .intro1 .intro-content .h1 {
-          font-size: 40px;
-          margin-top: -75px; } }
+          font-size: 36px; } }
 
 .intro1 .intro-content p {
   font-size: 1.125rem; }
@@ -9393,14 +9391,36 @@ button,
     display: inline-block; }
 
 .intro-slider {
-  position: relative; }
-  @media only screen and (max-width: 1199px) {
+  position: relative; 
+  width: 95%;
+  margin: 50px auto 0;
+  }
+  @media only screen and (min-width: 575px) {
     .intro-slider {
-      margin-top: 50px; } }
+      margin: 50px auto 0;
+      width: 90%;
+      } }
+      @media only screen and (min-width: 767px) {
+        .intro-slider {
+          margin: 50px auto 0;
+          width: 80%;
+          } }
+              @media only screen and (min-width: 992px) {
+                .intro-slider {
+                  margin: 50px auto 0;
+                  width: 65%;
+                  } }    
+                  @media only screen and (min-width: 1199px) {
+                    .intro-slider {
+                      margin: 10px 0;
+                      width: 72%;
+                      } } 
   .intro-slider .slider-item {
-    position: relative; }
+    position: relative;
+     }
     .intro-slider .slider-item img {
-      border-radius: 10px; }
+      border-radius: 10px;
+      }
     .intro-slider .slider-item .slider-item-avatar {
       position: relative;
       padding: 20px;
@@ -9416,7 +9436,7 @@ button,
         margin-bottom: 0px; }
   .intro-slider .arrows {
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
     right: 20px;
     z-index: 999;
     display: flex; }
@@ -9434,6 +9454,11 @@ button,
       .intro-slider .arrows span i {
         line-height: 0px;
         color: #fff; }
+@media only screen and (max-width: 992px) {
+  .intro-slider .arrows span {
+    background: #2a52be;
+    height: 30px;
+    width: 30px; } }
 
 @media only screen and (max-width: 991px) {
   .what-we-do-content {
