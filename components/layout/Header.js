@@ -1,6 +1,11 @@
 import Link from "next/link";
 
 function Header() {
+    const scroll = (element) => {
+        const section = document.querySelector(element);
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
     return (
         <>
             <div className="header landing">
@@ -13,7 +18,7 @@ function Header() {
                                         <Link href="/">
                                             <img src="/images/logo2.png" alt="" className="logo-primary"
                                                 style={{
-                                                    height: "40px",
+                                                    height: "50px",
                                                 }} />
                                         </Link>
                                     </div>
@@ -21,36 +26,36 @@ function Header() {
                                     <div className={"collapse navbar-collapse"}>
                                         <ul className="navbar-nav" >
                                             <li className="nav-item" >
-                                                <Link href="#tokenomic"
+                                                <a onClick={() => scroll("#feature")}
                                                     style={{
                                                         fontWeight: 500,
-                                                        fontSize: "18px",
-                                                    }}>Tokenomics</Link>
+                                                        fontSize: "16px",
+                                                    }}>Features</a>
                                             </li>
                                             <li className="nav-item" >
-                                                <Link href="#roadmap"
+                                                <a onClick={() => scroll("#tokenomic")}
                                                     style={{
                                                         fontWeight: 500,
-                                                        fontSize: "18px",
-                                                    }}>Roadmap</Link>
+                                                        fontSize: "16px",
+                                                    }}>Tokenomics</a>
                                             </li>
                                             <li className="nav-item" >
-                                                <Link href="#partner"
+                                                <a onClick={() => scroll("#roadmap")}
                                                     style={{
                                                         fontWeight: 500,
-                                                        fontSize: "18px",
-                                                    }}>Partners</Link>
-
+                                                        fontSize: "16px",
+                                                    }}>Roadmap</a>
                                             </li>
                                         </ul>
                                     </div>
 
                                     <div className="play-btn d-flex align-items-center">
-                                        <Link href="https://beta.f3play.io/" className="btn btn-primary"
+                                        <div className="btn btn-primary"
                                             style={{
                                                 fontWeight: 600,
-                                                fontSize: "18px",
-                                            }}>Play Now</Link>
+                                                fontSize: "16px",
+                                                padding: "6px 16px",
+                                            }}>Coming soon</div>
                                     </div>
                                 </nav>
                             </div>

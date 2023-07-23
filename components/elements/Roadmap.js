@@ -3,13 +3,13 @@ const Roadmap = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container roadmap-chart">
         <div className="row">
           <div className="col-xl-12">
             <section id="cd-timeline" class="cd-container">
 
               <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"></div>
+                <div class="cd-timeline-img-active cd-picture"></div>
 
                 <div class="cd-timeline-content">
                   <h2 style={{ fontSize: "28px", fontWeight: 500 }}>PHASE 1</h2>

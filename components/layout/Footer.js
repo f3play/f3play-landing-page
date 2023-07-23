@@ -8,58 +8,22 @@ const Footer = () => {
             <div className="bottom section-padding triangle-top-dark triangle-bottom-dark">
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-4 col-lg-4 col-md-7 col-sm-8">
+                        <div className="col-xl-2 col-lg-2"/>
+                        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                             <div className="bottom-logo">
                                 <img
                                     className="pb-3"
                                     src="/images/logo2.png"
                                     alt=""
-                                    style={{ height: 60 }}
+                                    style={{ height: 90 }}
                                 />
                                 <p style={{ fontWeight: 400 }}>
                                     FUN - FAIR - FAST
                                 </p>
                             </div>
                         </div>
-                        <div className="col-xl-2 col-lg-2 col-md-5 col-sm-4 col-6">
-                            <div className="bottom-widget">
-                                <h4 className="widget-title">About us</h4>
-                                <ul>
-                                    <li>
-                                        <Link href="#">Explore</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">Item</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">Collection</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">Connect</Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6">
-                            <div className="bottom-widget">
-                                <h4 className="widget-title">Integrations</h4>
-                                <ul>
-                                    <li>
-                                        <Link href="#">Github</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">Gitbook</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">Widget</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">Media Kit</Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                        
+                        <div className="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
                             <div className="bottom-widget">
                                 <h4 className="widget-title">Community</h4>
                                 <ul>
@@ -67,7 +31,7 @@ const Footer = () => {
                                         <Link href="#">Discord</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Telegram</Link>
+                                        <Link href="https://t.me/F3Play">Telegram</Link>
                                     </li>
                                     <li>
                                         <Link href="#">Twitter</Link>
@@ -75,15 +39,12 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                        <div className="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
                             <div className="bottom-widget">
-                                <h4 className="widget-title">Help</h4>
+                                <h4 className="widget-title">Resources</h4>
                                 <ul>
                                     <li>
-                                        <Link href="#">User Docs</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">FAQ</Link>
+                                        <Link href="https://docs.f3play.io/">Documents</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -97,7 +58,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="copyright">
                             <p>
-                                © Copyright 2023 <a href="#" style={{ color: "#2a52be" }}>F3Play</a>{" "}
+                                © Copyright 2023 <a href="https://devtrek.io/" style={{ color: "#0d6692" }}>DevTrek</a>{" "}
                                 All Rights Reserved
                             </p>
                         </div>
