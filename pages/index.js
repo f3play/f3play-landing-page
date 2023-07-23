@@ -16,10 +16,14 @@ const Index = () => {
 				<div className="intro1 section-padding">
 					<div className="container">
 						<div className="row align-items-center justify-content-between" >
-							<div className="col-xl-5">
+							<div className="col-xl-6">
 								<div className="intro-content">
-									<h1 className="intro-content-text">FUN - FAIR - FAST</h1>
-									<p style={{ fontSize: 18, fontWeight: 400 }}>F3Play revolutionizes the way Web3 Lunatics engages with GameFi. Embracing a player-centric philosophy, our game offers a delightful and hilarious gaming experience. Every player has the chance to shine as a champion and quickly earn attractive rewards that remain immune to inflationary impacts.</p>
+									{/* <h1 className="intro-content-text">FUN - FAIR - FAST</h1> */}
+									<img src="/images/slogan.png" className="slogan" />
+
+									<p style={{ fontSize: 16, fontWeight: 400 }}>
+										Welcome to F3Play, the innovative fusion of Meme and GameFi, redefining the interaction between Web3 Lunatics and gaming. We take things back to basics while creating a thrilling, player-centric environment. F3Play offers a FUN - FAIR - FAST gaming experience where every player has the opportunity to rise as a champion, embracing fairness and speed.
+									</p>
 
 									<div className="intro-btn">
 										<div className="btn btn-primary"
@@ -55,7 +59,9 @@ const Index = () => {
 									</div>
 								</div>
 							</div>
-							<div className="col-xl-6">
+							<div className="col-xl-1" />
+
+							<div className="col-xl-5">
 								<div className="intro-slider">
 									<IntroSlider />
 								</div>
@@ -83,9 +89,9 @@ const Index = () => {
 							<div className="row col-xl-8 token-feature">
 								<div className="col-xl-4 col-lg-4">
 									<div className="built-in-content">
-										<img src="/images/svg/nft.png" style={{ width: "80px", height: "80px", marginBottom: "10px" }}></img>
+										<img src="/images/svg/nft.png" className="img-feature"></img>
 
-										<p style={{ fontSize: "24px", fontWeight: 500, color: "white" }}>NFT</p>
+										<p className="feature-title">NFT</p>
 										<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
 											Iconic Meme as NFT, comes with various versions.
 										</p>
@@ -94,9 +100,9 @@ const Index = () => {
 								</div>
 								<div className="col-xl-4 col-lg-4">
 									<div className="built-in-content">
-										<img src="/images/svg/bnb.png" style={{ width: "80px", height: "80px", marginBottom: "10px" }}></img>
+										<img src="/images/svg/bnb.png" className="img-feature"></img>
 
-										<p style={{ fontSize: "24px", fontWeight: 500, color: "white" }}>Native Token</p>
+										<p className="feature-title">Native Token</p>
 										<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
 											Used to summon powerful Meme NFT.
 										</p>
@@ -107,9 +113,9 @@ const Index = () => {
 								</div>
 								<div className="col-xl-4 col-lg-4">
 									<div className="built-in-content" style={{ marginBottom: "0px" }}>
-										<img src="/favicon.png" style={{ width: "80px", height: "80px", marginBottom: "10px" }}></img>
+										<img src="/favicon.png" className="img-feature"></img>
 
-										<p style={{ fontSize: "24px", fontWeight: 500, color: "white" }}>F3Play Token</p>
+										<p className="feature-title">F3Play Token</p>
 										<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
 											Used as battle fee as you fight with the others.
 										</p>

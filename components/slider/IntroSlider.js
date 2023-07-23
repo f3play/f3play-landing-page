@@ -8,14 +8,6 @@ const IntroSlider = () => {
 
     const data = [
         {
-            img: "1.jpg",
-            title: "Meme 1",
-        },
-        {
-            img: "2.jpg",
-            title: "Meme 2",
-        },
-        {
             img: "3.jpg",
             title: "Meme 3",
         },

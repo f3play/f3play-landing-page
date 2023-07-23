@@ -8067,13 +8067,13 @@ strong {
     -webkit-transform: translate3d(-60px, 0, 0); } }
 
 .section-padding {
-  padding: 80px 0 30px; }
+  padding: 80px 0 0; }
   @media only screen and (max-width: 1199px) {
     .section-padding {
-      padding: 70px 0 20px; } }
+      padding: 80px 0 0; } }
   @media only screen and (max-width: 991px) {
     .section-padding {
-      padding: 60px 0 20px; } }
+      padding: 55px 0 20px; } }
   @media only screen and (max-width: 767px) {
     .section-padding {
       padding: 50px 0 20px; } }
@@ -8159,26 +8159,26 @@ strong {
   box-shadow: none !important; }
 
 .section-title {
-  margin-bottom: 50px; }
+  margin-bottom: 15px; }
   .section-title p, .section-title .p {
 		color: #fff;
     font-weight: 500;
     font-size: 26px; }
     @media only screen and (min-width: 575px) {
       .section-title p, .section-title .p {
-        font-size: 30px;
+        font-size: 28px;
         } }
         @media only screen and (min-width: 767px) {
           .section-title p, .section-title .p {
-            font-size: 32px;
+            font-size: 30px;
             } }
                 @media only screen and (min-width: 992px) {
                   .section-title p, .section-title .p {
-                    font-size: 34px;
+                    font-size: 32px;
                     } }    
                     @media only screen and (min-width: 1199px) {
                       .section-title p, .section-title .p {
-                        font-size: 36px;
+                        font-size: 34px;
                         } } 
 .sidebar {
   background: #fff;
@@ -9420,28 +9420,28 @@ button,
 
 .intro-slider {
   position: relative; 
-  width: 95%;
+  width: 90%;
   margin-top: 50px;
   }
   @media only screen and (min-width: 575px) {
     .intro-slider {
       margin: 50px auto 0;
-      width: 90%;
+      width: 80%;
       } }
       @media only screen and (min-width: 767px) {
         .intro-slider {
           margin: 50px auto 0;
-          width: 80%;
+          width: 70%;
           } }
               @media only screen and (min-width: 992px) {
                 .intro-slider {
                   margin: 50px auto 0;
-                  width: 65%;
+                  width: 60%;
                   } }    
                   @media only screen and (min-width: 1199px) {
                     .intro-slider {
                       margin: 10px 0;
-                      width: 72%;
+                      width: 100%;
                       } } 
   .intro-slider .slider-item {
     position: relative;
@@ -9537,6 +9537,12 @@ button,
   .built-in-list li i {
     font-size: 22px;
     margin-right: 10px; }
+    @media only screen and (max-width: 991px) {
+      .built-in-list li {
+        font-size: 18px; } }
+        @media only screen and (max-width: 567px) {
+          .built-in-list li {
+            font-size: 16px; } }
 
 .built-in-content {
   border: 1px solid #23243e;
@@ -9558,7 +9564,7 @@ button,
     height: 100%; } }
   
 .investor-brand {
-  margin-top: -20px;
+  margin-top: -5px;
   text-align: center; }
   .investor-brand img {
     margin: 0 25px 50px;}
@@ -9809,8 +9815,7 @@ button,
 
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2, .cd-timeline-content .h2 {
-    font-size: 20px;
-    font-size: 1.25rem; }
+    font-size: 22px;}
   .cd-timeline-content p {
     font-size: 16px;
     font-size: 1rem; }
@@ -10025,48 +10030,106 @@ button,
   margin-bottom: 30px;
   width: 40vh;
   height: auto; 
-  margin-top: -30px;}
+  margin-top: -5px;}
   @media only screen and (min-width: 576px) {
     .tokenomic-chart {
-      margin-top: -35px;
-      width: 60vh;
+      margin-top: -10px;
+      width: 50vh;
       height: auto;
       margin-bottom: 35px; } }
   @media only screen and (min-width: 768px) {
     .tokenomic-chart {
-      margin-top: -30px;
-      width: 70vh;
+      margin-top: -10px;
+      width: 60vh;
       height: auto;
       margin-bottom: 35px; } }
   @media only screen and (min-width: 992px) {
     .tokenomic-chart {
       margin-top: 0px;
-      width: 50vh;
+      width: 40vh;
       height: auto; 
       margin-bottom: 0px;} }
       @media only screen and (min-width: 1200px) {
         .tokenomic-chart {
           margin-top: 0px;
-          } }
+          width: 50vh;
+          height: auto; 
+          margin-bottom: 0px;} }    
+      
 
 @media (min-width: 992px) {
   .token-feature {
     margin-top: 25px; } }
 
 .roadmap-chart {
-  margin-top: -50px;
+  margin-top: -35px;
 }
 @media only screen and (min-width: 576px) {
   .roadmap-chart {
-    margin-top: -45px; } }
+    margin-top: -30px; } }
 @media only screen and (min-width: 768px) {
   .roadmap-chart {
-    margin-top: -45px; } }
+    margin-top: -25px; } }
 @media only screen and (min-width: 992px) {
   .roadmap-chart {
-    margin-top: -50px;} }
+    margin-top: -25px;} }
     @media only screen and (min-width: 1200px) {
       .roadmap-chart {
-        margin-top: -50px;
+        margin-top: -20px;
         } }
+
+.slogan { 
+  margin-bottom: 25px;
+  height: 28px;
+}
+@media only screen and (min-width: 576px) {
+  .slogan  {
+    height: 30px;} }
+@media only screen and (min-width: 768px) {
+  .slogan  {
+    height: 32px; } }
+@media only screen and (min-width: 992px) {
+  .slogan  {
+    height: 36px;} }
+    @media only screen and (min-width: 1200px) {
+      .slogan  {
+        height: 40px;
+        } }
+
+.built-in-content .feature-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: white
+}
+@media only screen and (min-width: 1400px) {
+  .built-in-content .feature-title  {
+    font-size: 24px;
+    } }
+
+.phase-roadmap {
+  font-size: 20px;
+  font-weight: 500;
+}   
+
+.img-feature {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px; 
+}
+@media only screen and (min-width: 576px) {
+  .img-feature  {
+    width: 60px;
+    height: 60px;} }
+@media only screen and (min-width: 768px) {
+  .img-feature  {
+    width: 65px;
+    height: 65px; } }
+@media only screen and (min-width: 992px) {
+  .img-feature  {
+    width: 70px;
+    height: 70px;} }
+@media only screen and (min-width: 1200px) {
+  .img-feature  {
+    width: 80px;
+    height: 80px;} }
 /*# sourceMappingURL=style.css.map */

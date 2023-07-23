@@ -12,7 +12,7 @@ const Roadmap = () => {
                 <div class="cd-timeline-img-active cd-picture"></div>
 
                 <div class="cd-timeline-content">
-                  <h2 style={{ fontSize: "28px", fontWeight: 500 }}>PHASE 1</h2>
+                  <h2 className="phase-roadmap">PHASE 1</h2>
                   <div class="timeline-content-info">
                     <span class="timeline-content-info-title" style={{ fontSize: "16px", fontWeight: 500 }}>
                       Foundation
@@ -49,7 +49,7 @@ const Roadmap = () => {
                 <div class="cd-timeline-img cd-movie"></div>
 
                 <div class="cd-timeline-content">
-                  <h2 style={{ fontSize: "28px", fontWeight: 500 }}>PHASE 2</h2>
+                  <h2 className="phase-roadmap">PHASE 2</h2>
                   <div class="timeline-content-info">
                     <span class="timeline-content-info-title" style={{ fontSize: "16px", fontWeight: 500 }}>
                       Launch
@@ -87,7 +87,7 @@ const Roadmap = () => {
                 <div class="cd-timeline-img cd-picture"></div>
 
                 <div class="cd-timeline-content">
-                  <h2 style={{ fontSize: "28px", fontWeight: 500 }}>PHASE 3</h2>
+                  <h2 className="phase-roadmap">PHASE 3</h2>
                   <div class="timeline-content-info">
                     <span class="timeline-content-info-title" style={{ fontSize: "16px", fontWeight: 500 }}>
                       Community Empowerment

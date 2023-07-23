@@ -8,19 +8,19 @@ function Header() {
 
     return (
         <>
-            <div className="header landing">
+            <div className="header landing" >
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="navigation">
                                 <nav className="navbar navbar-expand-lg navbar-dark">
                                     <div className="brand-logo">
-                                        <Link href="/">
-                                            <img src="/images/logo2.png" alt="" className="logo-primary"
+                                        <div onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                                            <img src="/images/logo.png" alt="" className="logo-primary"
                                                 style={{
                                                     height: "50px",
                                                 }} />
-                                        </Link>
+                                        </div>
                                     </div>
 
                                     <div className={"collapse navbar-collapse"}>
