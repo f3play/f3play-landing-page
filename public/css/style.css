@@ -9756,7 +9756,7 @@ button,
       margin-right: 5px; }
     .cd-timeline-content .timeline-content-info .timeline-content-info-title,
     .cd-timeline-content .timeline-content-info .timeline-content-info-date {
-      width: calc(60% - 2px);
+      width: calc(50% - 2px);
       display: inline-block; }
     @media (max-width: 500px) {
       .cd-timeline-content .timeline-content-info .timeline-content-info-title,

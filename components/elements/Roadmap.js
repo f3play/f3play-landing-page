@@ -14,14 +14,13 @@ const Roadmap = () => {
 
                 <div class="cd-timeline-content">
                   <h2 className="phase-roadmap">PHASE 1</h2>
-                  <div class="timeline-content-info">
-                    <span class="timeline-content-info-title" style={{ fontSize: "16px", fontWeight: 500 }}>
+                  <div class="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
+                    <span class="timeline-content-info-title" >
+                      Development
+                    </span>
+                    <span class="timeline-content-info-date">
                       Q3/2023
                     </span>
-                    {/* <span class="timeline-content-info-date">
-                      <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                      June 2016 - Present
-                    </span> */}
                   </div>
 
                   <p style={{ fontWeight: 300, fontSize: "16px" }}>
@@ -54,14 +53,13 @@ const Roadmap = () => {
 
                 <div class="cd-timeline-content">
                   <h2 className="phase-roadmap">PHASE 2</h2>
-                  <div class="timeline-content-info">
-                    <span class="timeline-content-info-title" style={{ fontSize: "16px", fontWeight: 500 }}>
+                  <div class="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
+                    <span class="timeline-content-info-title" >
+                      Collaboration
+                    </span>
+                    <span class="timeline-content-info-date">
                       Q4/2023
                     </span>
-                    {/* <span class="timeline-content-info-date">
-                      <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                      June 2016 - Present
-                    </span> */}
                   </div>
 
                   <p style={{ fontWeight: 300, fontSize: "16px" }}>
@@ -92,14 +90,13 @@ const Roadmap = () => {
 
                 <div class="cd-timeline-content">
                   <h2 className="phase-roadmap">PHASE 3</h2>
-                  <div class="timeline-content-info">
-                    <span class="timeline-content-info-title" style={{ fontSize: "16px", fontWeight: 500 }}>
+                  <div class="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
+                    <span class="timeline-content-info-title" >
+                      Community
+                    </span>
+                    <span class="timeline-content-info-date">
                       Q1/2024
                     </span>
-                    {/* <span class="timeline-content-info-date">
-                      <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                      June 2016 - Present
-                    </span> */}
                   </div>
 
                   <p style={{ fontWeight: 300, fontSize: "16px" }}>

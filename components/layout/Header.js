@@ -25,21 +25,23 @@ function Header() {
 
                                     <div className={"collapse navbar-collapse"}>
                                         <ul className="navbar-nav" >
-                                            <li className="nav-item" >
+                                            <li className="nav-item" style={{cursor: "pointer"}}>
                                                 <a onClick={() => scroll("#feature")}
                                                     style={{
                                                         fontWeight: 500,
                                                         fontSize: "16px",
+                                                        cursor: "pointer",
                                                     }}>Features</a>
                                             </li>
-                                            <li className="nav-item" >
+                                            <li className="nav-item" style={{cursor: "pointer"}}>
                                                 <a onClick={() => scroll("#tokenomic")}
                                                     style={{
                                                         fontWeight: 500,
                                                         fontSize: "16px",
+                                                        cursor: "pointer",
                                                     }}>Tokenomics</a>
                                             </li>
-                                            <li className="nav-item" >
+                                            <li className="nav-item" style={{cursor: "pointer"}}>
                                                 <a onClick={() => scroll("#roadmap")}
                                                     style={{
                                                         fontWeight: 500,

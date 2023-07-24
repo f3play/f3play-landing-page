@@ -22,7 +22,7 @@ const Index = () => {
 									<img src="/images/slogan.png" className="slogan" />
 
 									<p style={{ fontSize: 16, fontWeight: 400, marginBottom: 14 }}>
-										Welcome to F3Play, the innovative fusion of Meme and GameFi, redefining the interaction between Web3 Lunatics and gaming.
+										Welcome to F3Play, the innovative fusion of <a style={{color: "white"}}>Meme</a> and <a style={{color: "white"}}>GameFi</a>, redefining the interaction between Web3 Lunatics and gaming.
 									</p>
 									<p style={{ fontSize: 16, fontWeight: 400, marginBottom: 14 }}>
 										We take things back to basics while creating a thrilling, player-centric environment.
