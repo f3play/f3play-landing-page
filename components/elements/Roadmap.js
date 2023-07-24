@@ -7,23 +7,23 @@ const Roadmap = () => {
       <div className="container roadmap-chart">
         <div className="row">
           <div className="col-xl-12">
-            <section id="cd-timeline" class="cd-container">
+            <section id="cd-timeline" className="cd-container">
 
-              <div class="cd-timeline-block">
-                <div class="cd-timeline-img-active cd-picture"></div>
+              <div className="cd-timeline-block">
+                <div className="cd-timeline-img-active cd-picture"></div>
 
-                <div class="cd-timeline-content">
+                <div className="cd-timeline-content">
                   <h2 className="phase-roadmap">PHASE 1</h2>
-                  <div class="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
-                    <span class="timeline-content-info-title" >
+                  <div className="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
+                    <span className="timeline-content-info-title" >
                       Development
                     </span>
-                    <span class="timeline-content-info-date">
+                    <span className="timeline-content-info-date">
                       Q3/2023
                     </span>
                   </div>
 
-                  <p style={{ fontWeight: 300, fontSize: "16px" }}>
+                  <div style={{ fontWeight: 300, fontSize: "16px", marginTop: 16, marginBottom: 16 }}>
                     <img src="/images/svg/rocket.svg" className="img-fluid"
                       style={{
                         width: "20px",
@@ -43,21 +43,21 @@ const Roadmap = () => {
                     <p style={{ marginBottom: -10, marginLeft: 20, fontSize: "16px" }}><RxDotFilled style={{ width: "16px", heigth: "16px" }} />
                       Launchpad
                     </p>
-                  </p>
+                  </div>
 
                 </div>
               </div>
 
-              <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-movie"></div>
+              <div className="cd-timeline-block">
+                <div className="cd-timeline-img cd-movie"></div>
 
-                <div class="cd-timeline-content">
+                <div className="cd-timeline-content">
                   <h2 className="phase-roadmap">PHASE 2</h2>
-                  <div class="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
-                    <span class="timeline-content-info-title" >
+                  <div className="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
+                    <span className="timeline-content-info-title" >
                       Collaboration
                     </span>
-                    <span class="timeline-content-info-date">
+                    <span className="timeline-content-info-date">
                       Q4/2023
                     </span>
                   </div>
@@ -85,16 +85,16 @@ const Roadmap = () => {
                 </div>
               </div>
 
-              <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"></div>
+              <div className="cd-timeline-block">
+                <div className="cd-timeline-img cd-picture"></div>
 
-                <div class="cd-timeline-content">
+                <div className="cd-timeline-content">
                   <h2 className="phase-roadmap">PHASE 3</h2>
-                  <div class="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
-                    <span class="timeline-content-info-title" >
+                  <div className="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
+                    <span className="timeline-content-info-title" >
                       Community
                     </span>
-                    <span class="timeline-content-info-date">
+                    <span className="timeline-content-info-date">
                       Q1/2024
                     </span>
                   </div>
