@@ -1,3 +1,4 @@
+import { RxDotFilled } from "react-icons/rx";
 
 const Roadmap = () => {
 
@@ -15,7 +16,7 @@ const Roadmap = () => {
                   <h2 className="phase-roadmap">PHASE 1</h2>
                   <div class="timeline-content-info">
                     <span class="timeline-content-info-title" style={{ fontSize: "16px", fontWeight: 500 }}>
-                      Foundation
+                      Q3/2023
                     </span>
                     {/* <span class="timeline-content-info-date">
                       <i class="fa fa-calendar-o" aria-hidden="true"></i>
@@ -30,18 +31,21 @@ const Roadmap = () => {
                         height: "20px",
                         marginRight: "10px",
                       }} />
-                    <span style={{ fontWeight: 500 }}>Smart Contract Development:</span> Secure and audited smart contract for F3Play token to ensure transparency and trust.
+                    <span style={{ fontWeight: 500 }}>Bringing a full Experience:</span> The Battle is just the starting point of this empire. Later on, we will build the Economy related Facilities to make the Meme Empire prosper. The blueprints have been set for:
+                    <p style={{ marginBottom: -10, marginLeft: 20, marginTop: 10, fontSize: "16px" }}><RxDotFilled style={{ width: "16px", heigth: "16px" }} />
+                      Swap
+                    </p>
+                    <p style={{ marginBottom: -10, marginLeft: 20, fontSize: "16px" }}><RxDotFilled style={{ width: "16px", heigth: "16px" }} />
+                      Yield Farming
+                    </p >
+                    <p style={{ marginBottom: -10, marginLeft: 20, fontSize: "16px" }}><RxDotFilled style={{ width: "16px", heigth: "16px" }} />
+                      LP Staking
+                    </p>
+                    <p style={{ marginBottom: -10, marginLeft: 20, fontSize: "16px" }}><RxDotFilled style={{ width: "16px", heigth: "16px" }} />
+                      Launchpad
+                    </p>
                   </p>
 
-                  <p style={{ fontWeight: 300, fontSize: "16px" }}>
-                    <img src="/images/svg/earth.svg" className="img-fluid"
-                      style={{
-                        width: "20px",
-                        height: "20px",
-                        marginRight: "10px",
-                      }} />
-                    <span style={{ fontWeight: 500 }}>Community Building:</span> Telegram, Discord, Twitter - Get ready for the hype train with a strong and engaged F3 community.
-                  </p>
                 </div>
               </div>
 
@@ -52,7 +56,7 @@ const Roadmap = () => {
                   <h2 className="phase-roadmap">PHASE 2</h2>
                   <div class="timeline-content-info">
                     <span class="timeline-content-info-title" style={{ fontSize: "16px", fontWeight: 500 }}>
-                      Launch
+                      Q4/2023
                     </span>
                     {/* <span class="timeline-content-info-date">
                       <i class="fa fa-calendar-o" aria-hidden="true"></i>
@@ -67,7 +71,7 @@ const Roadmap = () => {
                         height: "20px",
                         marginRight: "10px",
                       }} />
-                    <span style={{ fontWeight: 500 }}>Token Launch:</span> F3Play token officially takes off. Get ready for liftoff!
+                    <span style={{ fontWeight: 500 }}>World Boss:</span> After horning your skill through various battles with each other, it's time to join our hand and fight against the powerful enemies who aim to overtake our Meme Empire. Defeat those Villains and retrieve the treasure.
                   </p>
 
                   <p style={{ fontWeight: 300, fontSize: "16px" }}>
@@ -77,7 +81,7 @@ const Roadmap = () => {
                         height: "20px",
                         marginRight: "10px",
                       }} />
-                    <span style={{ fontWeight: 500 }}>Partnerships:</span> Collaborate with meme creators, influencers, and content platforms. Let's join forces and spread the F3Play movement!
+                    <span style={{ fontWeight: 500 }}>Collaboration:</span> Forming an Alliance with other countries has proved to be a good move to make your Empire stronger. Hence, The Meme from F3Play will welcome anyone to ally with our Empire.
                   </p>
 
                 </div>
@@ -90,34 +94,22 @@ const Roadmap = () => {
                   <h2 className="phase-roadmap">PHASE 3</h2>
                   <div class="timeline-content-info">
                     <span class="timeline-content-info-title" style={{ fontSize: "16px", fontWeight: 500 }}>
-                      Community Empowerment
+                      Q1/2024
                     </span>
                     {/* <span class="timeline-content-info-date">
                       <i class="fa fa-calendar-o" aria-hidden="true"></i>
                       June 2016 - Present
                     </span> */}
                   </div>
-                  
-                  <p style={{ fontWeight: 300, fontSize: "16px" }}>
-                    <img src="/images/svg/unlock.svg" className="img-fluid"
-                      style={{
-                        width: "30px",
-                        height: "30px",
-                        marginRight: "10px",
-                        paddingBottom: "5px",
-                      }} />
-                    <span style={{ fontWeight: 500 }}>Gated Community:</span> Unlock exclusive benefits in the F3Play gated community. Early updates, exclusive content, and interactive experiences await you!
-                  </p>
 
                   <p style={{ fontWeight: 300, fontSize: "16px" }}>
-                    <img src="/images/svg/marketing.svg" className="img-fluid"
+                    <img src="/images/svg/earth.svg" className="img-fluid"
                       style={{
-                        width: "30px",
-                        height: "30px",
+                        width: "20px",
+                        height: "20px",
                         marginRight: "10px",
-                        paddingBottom: "5px",
                       }} />
-                    <span style={{ fontWeight: 500 }}>Branding and Marketing:</span> Spread the word about F3Play with a comprehensive marketing campaign. Let's go viral!
+                    <span style={{ fontWeight: 500 }}>Legion War:</span> Sometime, a maneuvering war between countries is not a bad idea. Let's form a Legion and compete with other Empire.
                   </p>
 
                 </div>

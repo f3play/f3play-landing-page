@@ -21,8 +21,14 @@ const Index = () => {
 									{/* <h1 className="intro-content-text">FUN - FAIR - FAST</h1> */}
 									<img src="/images/slogan.png" className="slogan" />
 
+									<p style={{ fontSize: 16, fontWeight: 400, marginBottom: 14 }}>
+										Welcome to F3Play, the innovative fusion of Meme and GameFi, redefining the interaction between Web3 Lunatics and gaming.
+									</p>
+									<p style={{ fontSize: 16, fontWeight: 400, marginBottom: 14 }}>
+										We take things back to basics while creating a thrilling, player-centric environment.
+									</p>
 									<p style={{ fontSize: 16, fontWeight: 400 }}>
-										Welcome to F3Play, the innovative fusion of Meme and GameFi, redefining the interaction between Web3 Lunatics and gaming. We take things back to basics while creating a thrilling, player-centric environment. F3Play offers a FUN - FAIR - FAST gaming experience where every player has the opportunity to rise as a champion, embracing fairness and speed.
+										F3Play offers a FUN - FAIR - FAST gaming experience where every player has the opportunity to rise as a champion, embracing fairness and speed.
 									</p>
 
 									<div className="intro-btn">
