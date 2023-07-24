@@ -9551,14 +9551,14 @@ button,
   background: #16182D; }
   @media only screen and (max-width: 991px) {
     .built-in-content {
-      margin-bottom: 50px; } }
+      margin-bottom: 30px; } }
   .built-in-content span {
     font-size: 72px;
     color: #f73164; }
   .built-in-content p, .built-in-content .h4 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    margin-bottom: 20px; }
+    margin-bottom: 12px; }
 @media only screen and (min-width: 992px) {
   .built-in-content {
     height: 100%; } }
@@ -10097,13 +10097,13 @@ button,
         } }
 
 .built-in-content .feature-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   color: white
 }
 @media only screen and (min-width: 1400px) {
   .built-in-content .feature-title  {
-    font-size: 24px;
+    font-size: 20px;
     } }
 
 .phase-roadmap {

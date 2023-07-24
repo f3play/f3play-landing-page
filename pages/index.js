@@ -22,13 +22,13 @@ const Index = () => {
 									<img src="/images/slogan.png" className="slogan" />
 
 									<p style={{ fontSize: 16, fontWeight: 400, marginBottom: 14 }}>
-										Welcome to F3Play, the innovative fusion of <span style={{color: "white"}}>Meme</span> and <span style={{color: "white"}}>GameFi</span>, redefining the interaction between Web3 Lunatics and gaming.
+										Welcome to F3Play, the innovative fusion of <span style={{ color: "white" }}>Meme</span> and <span style={{ color: "white" }}>GameFi</span>, redefining the interaction between Web3 Lunatics and gaming.
 									</p>
 									<p style={{ fontSize: 16, fontWeight: 400, marginBottom: 14 }}>
-										We take things <span style={{color: "white"}}>back to basics</span> while creating a thrilling, player-centric environment.
+										We take things <span style={{ color: "white" }}>back to basics</span> while creating a thrilling, player-centric environment.
 									</p>
 									<p style={{ fontSize: 16, fontWeight: 400 }}>
-										F3Play offers a <span style={{color: "white"}}>FUN - FAIR - FAST</span> gaming experience where every player has the opportunity to rise as a champion, embracing fairness and speed.
+										F3Play offers a <span style={{ color: "white" }}>FUN - FAIR - FAST</span> gaming experience where every player has the opportunity to rise as a champion, embracing fairness and speed.
 									</p>
 
 									<div className="intro-btn">
@@ -78,11 +78,11 @@ const Index = () => {
 
 				<div className="section-padding" id="feature">
 					<div className="container">
-						<div className="section-title">
-							<p>F3Play’s Proudful Features</p>
+						<div className="section-title" style={{marginBottom: 30}}>
+							<p>What's Packed inside F3Play?</p>
 						</div>
-						<div className="row align-items-center">
-							<div className="col-xl-4">
+						<div className="row ">
+							{/* <div className="col-xl-4">
 								<div className="built-in-list">
 									<ul>
 										<li><RiArrowDropRightLine style={{ width: "30px", height: "30px" }} /> Everything is on-chain</li>
@@ -91,48 +91,67 @@ const Index = () => {
 										<li><RiArrowDropRightLine style={{ width: "30px", height: "30px" }} /> Unique random on-chain</li>
 									</ul>
 								</div>
+							</div> */}
+							{/* <div className="row col-xl-8 token-feature"> */}
+							<div className="col-xl-3 col-lg-3">
+								<div className="built-in-content">
+									<img src="/images/svg/nft.png" className="img-feature"></img>
+
+									<p className="feature-title">NFT</p>
+									<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
+										Iconic Meme as NFT, comes with various versions.
+									</p>
+									<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />Raise Rarity & Level to increase combat power.</p>
+								</div>
 							</div>
-							<div className="row col-xl-8 token-feature">
-								<div className="col-xl-4 col-lg-4">
-									<div className="built-in-content">
-										<img src="/images/svg/nft.png" className="img-feature"></img>
+							<div className="col-xl-3 col-lg-3">
+								<div className="built-in-content">
+									<img src="/images/svg/bnb.png" className="img-feature"></img>
 
-										<p className="feature-title">NFT</p>
-										<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
-											Iconic Meme as NFT, comes with various versions.
-										</p>
-										<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />Raise Rarity & Level to increase combat power.</p>
-									</div>
+									<p className="feature-title">Native Token</p>
+									<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
+										Used to summon powerful Meme NFT.
+									</p>
+									<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
+										Valuable prize for players
+									</p>
 								</div>
-								<div className="col-xl-4 col-lg-4">
-									<div className="built-in-content">
-										<img src="/images/svg/bnb.png" className="img-feature"></img>
+							</div>
+							<div className="col-xl-3 col-lg-3">
+								<div className="built-in-content" >
+									<img src="/favicon.png" className="img-feature"></img>
 
-										<p className="feature-title">Native Token</p>
-										<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
-											Used to summon powerful Meme NFT.
-										</p>
-										<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
-											Valuable prize for players
-										</p>
-									</div>
+									<p className="feature-title">F3Play Token</p>
+									<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
+										Used as battle fee as you fight with the others.
+									</p>
+									<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
+										Strengthen your NFT requires expense.
+									</p>
 								</div>
-								<div className="col-xl-4 col-lg-4">
-									<div className="built-in-content" style={{ marginBottom: "0px" }}>
-										<img src="/favicon.png" className="img-feature"></img>
+							</div>
+							<div className="col-xl-3 col-lg-3">
+								<div className="built-in-content" style={{ marginBottom: "0px" }}>
+									<img src="/images/svg/star.png" className="img-feature"></img>
 
-										<p className="feature-title">F3Play Token</p>
-										<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
-											Used as battle fee as you fight with the others.
-										</p>
-										<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
-											Strengthen your NFT requires expense.
-										</p>
-									</div>
+									<p className="feature-title">Proudful Features</p>
+									<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
+										Everything is on-chain.
+									</p>
+									<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
+										Endless battle.
+									</p>
+									<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
+										Referral system.
+									</p>
+									<p><RxDotFilled style={{ width: "20px", heigth: "20px" }} />
+										Unique random on-chain.
+									</p>
 								</div>
 							</div>
 						</div>
 					</div>
+					{/* </div> */}
 				</div>
 
 				<div className="section-padding" id="tokenomic">
