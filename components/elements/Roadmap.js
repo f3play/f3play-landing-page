@@ -23,7 +23,7 @@ const Roadmap = () => {
                     </span>
                   </div>
 
-                  <div style={{ fontWeight: 300, fontSize: "16px", marginTop: 16, marginBottom: 16 }}>
+                  <div style={{ fontWeight: 300, fontSize: "16px", marginTop: 16, marginBottom: 16, color: "rgba(255, 255, 255, 0.7)" }}>
                     <img src="/images/svg/rocket.svg" className="img-fluid"
                       style={{
                         width: "20px",
