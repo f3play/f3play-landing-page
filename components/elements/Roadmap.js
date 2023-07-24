@@ -16,10 +16,55 @@ const Roadmap = () => {
                   <h2 className="phase-roadmap">PHASE 1</h2>
                   <div className="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
                     <span className="timeline-content-info-title" >
-                      Development
+                      Release flow game
                     </span>
                     <span className="timeline-content-info-date">
                       Q3/2023
+                    </span>
+                  </div>
+                  <p style={{ fontWeight: 300, fontSize: "16px" }}>
+                    <img src="/images/svg/tournament.svg" className="img-fluid"
+                      style={{
+                        width: "25px",
+                        height: "25px",
+                        marginRight: "10px",
+                        paddingBottom: "5px",
+                      }} />
+                    <span style={{ fontWeight: 500 }}>Tournament:</span> Players will battle against each other to gain Battle Point and climb up the Leaderboard. The higher your rank, the more reward you receive.
+                  </p>
+                  <p style={{ fontWeight: 300, fontSize: "16px" }}>
+                    <img src="/images/svg/nft.png" className="img-fluid"
+                      style={{
+                        width: "20px",
+                        height: "20px",
+                        marginRight: "15px",
+                      }} />
+                    <span style={{ fontWeight: 500 }}>MEME NFT:</span> The value of MEME NFT is determined by factors such as its rarity and power stats.
+                  </p>
+                  <p style={{ fontWeight: 300, fontSize: "16px" }}>
+                    <img src="/images/svg/market.png" className="img-fluid"
+                      style={{
+                        width: "20px",
+                        height: "20px",
+                        marginRight: "15px",
+                      }} />
+                    <span style={{ fontWeight: 500 }}>NFT Marketplace platform:</span> The NFT is a decentralized exchange where users can buy and sell NFTs.
+                  </p>
+
+                </div>
+              </div>
+
+              <div className="cd-timeline-block">
+                <div className="cd-timeline-img cd-picture"></div>
+
+                <div className="cd-timeline-content">
+                  <h2 className="phase-roadmap">PHASE 2</h2>
+                  <div className="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
+                    <span className="timeline-content-info-title" >
+                      Development
+                    </span>
+                    <span className="timeline-content-info-date">
+                      Q4/2023
                     </span>
                   </div>
 
@@ -52,13 +97,13 @@ const Roadmap = () => {
                 <div className="cd-timeline-img cd-movie"></div>
 
                 <div className="cd-timeline-content">
-                  <h2 className="phase-roadmap">PHASE 2</h2>
+                  <h2 className="phase-roadmap">PHASE 3</h2>
                   <div className="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
                     <span className="timeline-content-info-title" >
                       Collaboration
                     </span>
                     <span className="timeline-content-info-date">
-                      Q4/2023
+                      Q1/2024
                     </span>
                   </div>
 
@@ -89,13 +134,13 @@ const Roadmap = () => {
                 <div className="cd-timeline-img cd-picture"></div>
 
                 <div className="cd-timeline-content">
-                  <h2 className="phase-roadmap">PHASE 3</h2>
+                  <h2 className="phase-roadmap">PHASE 4</h2>
                   <div className="timeline-content-info" style={{ fontSize: "16px", fontWeight: 500 }}>
                     <span className="timeline-content-info-title" >
                       Community
                     </span>
                     <span className="timeline-content-info-date">
-                      Q1/2024
+                      Q2/2024
                     </span>
                   </div>
 

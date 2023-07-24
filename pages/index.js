@@ -173,7 +173,7 @@ const Index = () => {
 									fontSize: "16px",
 									fontWeight: 400,
 									marginBottom: "25px"
-								}}>F3Play is a deflationary token that will be utilized by F3Play ecosystem applications. The total supply of F3Play tokens is <a style={{ fontWeight: 500, color: "white" }}>42,069,000,000</a>. The F3Play token is owned by everyone in the F3Play community and serves as a crucial key to unlock the future utilities of the F3 universe.</p>
+								}}>F3Play is a deflationary token that will be utilized by F3Play ecosystem applications. The total supply of F3Play tokens is <a style={{ fontWeight: 500, color: "white" }}>4,206,900,000</a>. The F3Play token is owned by everyone in the F3Play community and serves as a crucial key to unlock the future utilities of the F3 universe.</p>
 								<div className="btn btn-primary"
 									style={{
 										fontWeight: 600,
