@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from 'react';
-import { FaDiscord, FaTelegram, FaTwitter } from "react-icons/fa";
+import { FaDiscord, FaTelegram, FaTwitter, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -43,6 +43,12 @@ const Footer = () => {
                                         <Link href="https://twitter.com/F3Play_io" style={{ fontSize: 14 }}>
                                             <FaTwitter style={{ marginRight: 5, marginBottom: 3, width: 16, height: 16 }} />
                                             Twitter
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="https://www.facebook.com/F3Play.io/" style={{ fontSize: 14 }}>
+                                            <FaFacebook style={{ marginRight: 5, marginBottom: 3, width: 16, height: 16 }} />
+                                            Facebook
                                         </Link>
                                     </li>
                                 </ul>

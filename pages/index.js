@@ -2,7 +2,7 @@ import Link from "next/link";
 import LayoutFront from "../components/layout/Layout";
 import IntroSlider from "./../components/slider/IntroSlider";
 import Roadmap from "./../components/elements/Roadmap";
-import { FaDiscord, FaTelegram, FaTwitter } from "react-icons/fa";
+import { FaDiscord, FaTelegram, FaTwitter, FaFacebook } from "react-icons/fa";
 import { TbArrowUpRight } from "react-icons/tb";
 import { RiArrowDropRightLine } from "react-icons/ri";
 import { RxDotFilled } from "react-icons/rx";
@@ -61,6 +61,9 @@ const Index = () => {
 										</Link>
 										<Link href="#">
 											<FaDiscord />
+										</Link>
+										<Link href="https://www.facebook.com/F3Play.io/">
+											<FaFacebook />
 										</Link>
 									</div>
 								</div>
