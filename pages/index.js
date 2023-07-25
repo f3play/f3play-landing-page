@@ -53,7 +53,7 @@ const Index = () => {
 										</Link>
 									</div>
 									<div className="intro-social">
-										<Link href="#">
+										<Link href="https://twitter.com/F3Play_io">
 											<FaTwitter />
 										</Link>
 										<Link href="https://t.me/F3Play">

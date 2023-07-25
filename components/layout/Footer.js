@@ -34,7 +34,7 @@ const Footer = () => {
                                         <Link href="https://t.me/F3Play" style={{fontSize: 14}}>Telegram</Link>
                                     </li>
                                     <li>
-                                        <Link href="#" style={{fontSize: 14}}>Twitter</Link>
+                                        <Link href="https://twitter.com/F3Play_io" style={{fontSize: 14}}>Twitter</Link>
                                     </li>
                                 </ul>
                             </div>
